@@ -1,4 +1,8 @@
-a=4
-b=2
-c=(a+b)
-print("c is value",c)
+a=int(input("Enter A avalue:"))
+b=int(input("Enter B value:"))
+
+if a>b:
+        print("A is big",a)
+        
+else:
+        print("B is big",b)
